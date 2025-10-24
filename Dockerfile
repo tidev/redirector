@@ -5,4 +5,4 @@ COPY . /app
 
 ENV NODE_ENV production
 EXPOSE 80/tcp
-CMD [ "pnpm", "start" ]
+CMD [ "npm", "start" ]
